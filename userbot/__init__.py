@@ -378,7 +378,7 @@ def paginate_help(page_number, loaded_modules, prefix):
 
 with bot:
     try:
-        tgbot = None
+        bot.tgbot = None
     if BOT_USERNAME is not None:
         LOGS.info("Initiating Inline Bot")
         tgbot = TelegramClient(
