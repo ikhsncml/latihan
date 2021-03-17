@@ -14,7 +14,6 @@ from userbot import BOT_VER, LOGS, bot, BOT_USERNAME
 from userbot.modules import ALL_MODULES
 
 
-
 async def add_bot(bot_token):
     await bot.start(bot_token)
     bot.me = await bot.get_me()
