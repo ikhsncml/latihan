@@ -7,10 +7,32 @@
 
 from importlib import import_module
 from sys import argv
+from telethon import TelegramClient
 
 from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 from userbot import BOT_VER, LOGS, bot
 from userbot.modules import ALL_MODULES
+
+from .utils import load_module
+
+
+async def add_bot(bot_token):
+    await bot.start(bot_token)
+    bot.me = await bot.get_me()
+    bot.uid = telethon.utils.get_peer_id(bot.me)
+
+
+if len(argv) not in (1, 3, 4):
+    bot.disconnect()
+else:
+    bot.tgbot = None
+    if BOT_USERNAME is not None:
+        LOGS.info("Initiating Inline Bot")
+        # ForTheGreatrerGood of beautification
+        bot.tgbot = TelegramClient(
+            "BOT_TOKEN", api_id=API_KEY, api_hash=API_HASH
+        ).start(bot_token=BOT_TOKEN)
+
 
 INVALID_PH = '\nERROR: The Phone No. entered is INVALID' \
              '\n Tip: Use Country Code along with number.' \
