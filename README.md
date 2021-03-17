@@ -1,14 +1,14 @@
 <p align="center">
-    <img alt="XBOT VERSION" src="https://img.shields.io/badge/XBOT%20VERSION-4.+-brightgreen"/>
+    <img alt=Kampang-Bot" src="https://img.shields.io/badge/Kampang%20VERSION-4.+-brightgreen"/>
     <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Day-brightgreen"/>
-    <a href="https://travis-ci.com/X-Newbie/XBot-Remix.svg?branch=x-sql-extended" /></a>
-    <a href="https://app.codacy.com/gh/X-Newbie/XBot-Remix/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/X-Newbie/XBot-Remix"> <img src="https://img.shields.io/github/repo-size/X-Newbie/XBot-Remix?logo=github&style=for-the-badge" /></a>
-    <a href="https://github.com/X-Newbie/XBot-Remix/network/members"> <img src="https://img.shields.io/github/forks/X-Newbie/XBot-Remix?logo=github&style=for-the-badge" /></a>
+    <a href="https://travis-ci.com/ManusiaRakitan/Kampang-Bot.svg?branch=Kampang" /></a>
+    <a href="https://app.codacy.com/gh/ManusiaRakitan/Kampang-Bot/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/ManusiaRakitan/Kampang-Bot"> <img src="https://img.shields.io/github/repo-size/ManusiaRakitan/Kampang-Bot?logo=github&style=for-the-badge" /></a>
+    <a href="https://github.com/ManusiaRakitan/Kampang-Bot/network/members"> <img src="https://img.shields.io/github/forks/ManusiaRakitan/Kampang-Bot?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?label=telethon&logo=pypi&logoColor=white&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.8.6-blue?style=for-the-badge&logo=appveyor"/>
-    <a href="https://hub.docker.com/r/xnewbie/docker"> <img src="https://img.shields.io/docker/image-size/xnewbie/docker/groovy?label=docker%20image%20size&logo=docker&style=for-the-badge" /></a>
-    <a href="https://hub.docker.com/r/xnewbie/docker/tags"> <img src="https://img.shields.io/docker/v/xnewbie/docker/groovy?label=docker%20version&logo=docker&style=for-the-badge" /></a>
+    <a href="https://hub.docker.com/r/koala21/manusiarakitan"> <img src="https://img.shields.io/docker/image-size/koala21/manusiarakitan/kampang?label=docker%20image%20size&logo=docker&style=for-the-badge" /></a>
+    <a href="https://hub.docker.com/r/koala21/manusiarakitan/kampang"> <img src="https://img.shields.io/docker/v/koala21/manusiarakitan/kampang?label=docker%20version&logo=docker&style=for-the-badge" /></a>
    </p>
 
 
@@ -17,31 +17,29 @@
 
 # Based on RaphielGang's [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane)
 
-```
-/**
-    Your Telegram account may get banned.
-    I am not responsible for any improper use of this bot
-    This bot is intended for the purpose of having fun with memes,
-    as well as efficiently managing groups.
-    You ended up spamming groups, getting reported left and right,
-    and you ended up in a Finale Battle with Telegram and at the end
-    Telegram Team deleted your account?
-    And after that, then you pointed your fingers at us
-    for getting your acoount deleted?
-    I will be rolling on the floor laughing at you.
-/**
-```
-
-## Generate String Session
-
-### Or Run on your terminal
-
-```
-wget https://raw.githubusercontent.com/X-Newbie/XBot-Remix/x-sql-extended/Getstring.sh && bash Getstring.sh
-```
+<h2 align="center"><b>BOT: <a href="https://telegram.dog/mixiologist">KAMPANG ░ 🐨</a></b></h2>
+<br>
+<p align="center">
+   <a href="https://github.com/ManusiaRakitan/Kampang-Bot"><img src="https://media0.giphy.com/media/Hs0cX9Z3RR77c0MMA7/giphy.gif" alt="BOT-KAMPANG" width=400px></a>
+   <br>
+   <br>
+</p>
+<h1>BOT-KAMPANG</h1>
+<b>BOT NYA TOXIC HATI - HATI!</b>
+<br>
 <br>
 
-## How To Deploy 👷
+## String Session
+**VAR ->** `STRING_SESSION`
+#### By HEROKU
+- [open your app](https://dashboard.heroku.com/apps/) then go to **more** -> **run console** and type `bash genStr` and click **run**.
+#### On REPL
+- [Generate on REPL Click](https://repl.it/@ManusiaRakitan/stringsession#README.md)
+### Read more
+<details>
+  <summary><b>KLIK DISINI UNTUK TOMLOL DEPLOY ASU</b></summary>
+
+## CARA DEPLOY? JANGAN MALAS BACA TOLOL 😈
 
 ```
 * **[HEROKU](https://www.heroku.com/) Method** 🔧
@@ -57,16 +55,14 @@ wget https://raw.githubusercontent.com/X-Newbie/XBot-Remix/x-sql-extended/Getstr
   > Finally turn on the app and check the logs (settings -> view logs) enjoy :)
 ```
 
-## <p align="center">Deploy to Heroku Methods</p>
-
-
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Camel07/XBot-Remix/tree/x-sql-extended"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-cyan?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
-
-<br>
+* DENGAN HEROKU:
+<p align="center">
+   <a href = "https://heroku.com/deploy?template=https://github.com/ManusiaRakitan/Kampang-Bot/tree/Kampang"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
+<br>
 
 ## How to setup Google Drive
-<p align="center"><a href="https://telegra.ph/How-To-Setup-Google-Drive-04-03"> <img src="https://raw.githubusercontent.com/X-Newbie/XBot-Remix/x-sql-extended/userbot/resources/gd.png" alt="haa" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://telegra.ph/How-To-Setup-Google-Drive-04-03"> <img src="https://raw.githubusercontent.com/ManusiaRakitan/Bot-Kampang/Kampang/userbot/resources/gd.png" alt="Click" width="210" height="34.45" /></a></p>
 
 ## Credits
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
