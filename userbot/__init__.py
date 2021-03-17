@@ -20,7 +20,7 @@ from pymongo import MongoClient
 from redis import StrictRedis
 from dotenv import load_dotenv
 from requests import get
-from telethon.sync import TelegramClient, custom, events
+from telethon.sync import TelegramClient, custom, events, BOT_USERNAME
 from telethon.sessions import StringSession
 
 load_dotenv("config.env")
@@ -378,6 +378,9 @@ def paginate_help(page_number, loaded_modules, prefix):
 
 with bot:
     try:
+        tgbot = None
+    if BOT_USERNAME is not None:
+        LOGS.info("Initiating Inline Bot")
         tgbot = TelegramClient(
             "TG_BOT_TOKEN",
             api_id=API_KEY,
