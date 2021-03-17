@@ -13,7 +13,6 @@ from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 from userbot import BOT_VER, LOGS, bot
 from userbot.modules import ALL_MODULES
 
-from .utils import load_module
 
 
 async def add_bot(bot_token):
